@@ -1,0 +1,77 @@
+import 'package:get/get.dart';
+
+class MyTranslation extends Translations {
+  @override
+  Map<String, Map<String, String>> get keys => {
+    "ar": {
+      "1": "اختر اللغة",
+      "appName": "دفتر الحسابات",
+      "customer": "العملاء",
+      "public": "عام",
+      "income": "اضافة دخل",
+      "expenses": "اضافة مصروفات",
+      "addAmount": "إضافة مبلغ",
+      "totalReport": "تقرير - إجمالي المبالغ",
+      "detailsReport": "تقرير - تفاصيل كل المبالغ",
+      "monthlyReport": "تقرير - إجمالي المبالغ شهرياً",
+      "categoryReport": "تقرير - إجمالي التصنيفات",
+      "accountMovement": "تقرير - حركة الحسابات",
+      "autoRepeat": "التكرار التلقائي",
+      "backup": "حفظ نسخة إحتياطية",
+      "restoreDatabase": "إسترجاع قاعدة البيانات",
+      "googleDrive": "جوجل درايف",
+      "settings": "إعدادات",
+      "support": "للتواصل والدعم",
+      "about": "حول البرنامج",
+      "share": "مشاركة البرنامج",
+      "exit": "خروج",
+      "addUser": "إضافة مستخدم",
+      "add": "إضافة",
+      "cancel": "الغاء",
+      "addReceipt": "اضافة عملية",
+      "price": "المبلغ",
+      "SelectedDate": "تاريخ العملية",
+      "details":"التفاصيل",
+      "submit":"حفظ",
+      "forHim":"له",
+      "onIt":"عليه",
+
+
+    },
+    "en": {
+      "1": "Choose Language",
+      "appName": "Accounting Book",
+      "customer": "Customer",
+      "public": "Public",
+      "income": "Add Income",
+      "expenses": "Add Expenses",
+      "addAmount": "Add Amount",
+      "totalReport": "Report - Total Amounts",
+      "detailsReport": "Report - All Amount Details",
+      "monthlyReport": "Report - Monthly Total",
+      "categoryReport": "Report - Total Categories",
+      "accountMovement": "Report - Account Movement",
+      "autoRepeat": "Auto Repeat",
+      "backup": "Backup Data",
+      "restoreDatabase": "Restore Database",
+      "googleDrive": "Google Drive",
+      "settings": "Settings",
+      "support": "Support",
+      "about": "About",
+      "share": "Share App",
+      "exit": "Exit",
+      "addUser": "add user",
+      "add": "add",
+      "cancel": "cancel",
+      "addReceipt": "add Transaction",
+      "price": "amount",
+      "SelectedDate": "date Transaction",
+      "details":"details",
+      "submit":"submit",
+      "forHim":"for him",
+      "onIn":"on It",
+
+
+    }
+  };
+}
